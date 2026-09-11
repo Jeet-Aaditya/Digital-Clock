@@ -21,6 +21,9 @@ function updateClock() {
 	// Get the current hour, minute, and second.
 	let hours = now.getHours();
 	const minutes = now.getMinutes();
+
+    
+
 	const seconds = now.getSeconds();
 
 	// Use the 12-hour clock: 0 becomes 12, and 13 becomes 1.
